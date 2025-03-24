@@ -9,10 +9,10 @@
     "resolveJsonModule": true, // Permite importar archivos JSON directamente.
     "forceConsistentCasingInFileNames": true, // Garantiza consistencia en los nombres de archivo.
     "moduleResolution": "node", // Configura el sistema de resolución de módulos a Node.js.
-    "noEmit": true, // No emite archivos compilados.
+    "noEmit": false, // No emite archivos compilados.
     "skipLibCheck": true, // Omite la comprobación de tipos en bibliotecas para mejorar la velocidad.
     "allowSyntheticDefaultImports": true, // Permite importaciones por defecto para compatibilidad con ES.
-    "incremental": true, // Acelera las recompilaciones incrementales.
+    "incremental": false, // Acelera las recompilaciones incrementales.
     "types": ["node"], // Incluye tipos de Node.js automáticamente.
     "allowImportingTsExtensions": true
   },
